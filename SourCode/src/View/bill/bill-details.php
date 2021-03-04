@@ -1,5 +1,6 @@
 <table class="table-list">
     <tr>
+        <button><a href="index.php?page=bill">Add</a></button>
         <th>STT</th>
         <th>Trip_id</th>
         <th>Trip_date</th>
@@ -29,6 +30,7 @@
             <td><?php echo $bill['Location_start'] ?></td>
             <td><?php echo $bill['Location_end'] ?></td>
             <td><?php echo $bill['Customer_number'] ?></td>
+            <td class="text-danger"><a href="index.php?page=bill-details&id=<?php echo $bill['id'] ?>">Delete</td>
         </tr>
     <?php endforeach; ?>
 

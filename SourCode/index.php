@@ -22,7 +22,7 @@ $billController = new BillController();
 
 <body>
 <a href="index.php?page=bill-details">Danh sach hoa don chi tiet</a><br>
-<a href="index.php?page=bill">Tạo hóa đơn mới</a>
+
 
 <?php
 switch ($page) {
